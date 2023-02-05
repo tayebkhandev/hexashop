@@ -1,0 +1,136 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+ .header-skyle
+{
+    border-bottom: 3px dotted #eee;
+    box-shadow: none;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    height: 100px;
+} 
+.nav
+{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0 100px;
+    margin-top: 15px;
+    vertical-align: middle;
+    /* position: fixed; */
+    z-index: 1;
+}
+.nav .logo
+{
+    float: left;
+}
+.nav ul 
+{   
+    width: 100%;
+    text-align: right;
+}
+.nav ul li 
+{
+    display: inline-block;
+    list-style: none;
+}
+.nav ul li a
+{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 22px;
+}
+.nav ul li a:hover
+{
+    color: #aaa;
+}
+.nav ul li .active
+{
+    color: #aaa;
+}
+
+/* main bannar */
+.main-bannar
+{
+    padding-top: 160px;
+    padding-bottom: 30px;
+}
+.container-fluid
+{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-flex;
+}
+.inner-content
+{
+    position: absolute;
+    left: 100px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.main-bannar .left-content .inner-content h4
+{
+    color: #fff;
+    margin-top: -10px;
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+.main-bannar .left-content .inner-content span
+{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    font-style: italic;
+    display: inline;
+}
+.main-border-btn a
+{
+    font-size: 14px;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 25px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all 0.3s;
+    text-decoration: none;
+}
+.main-border-btn a:hover
+{
+    background-color: #fff;
+    color: black;
+}
+.main-bannar .left-content .thumb img
+{ 
+    width: 90%;
+    overflow: hidden;
+}
+.right-first-image
+{
+    margin-bottom: 25px;
+}
+.main-bannar .right-content .right-first-image .thumb
+{
+    position: relative;
+    display: flex;
+    text-align: center;
+}
+.main-bannar .right-content .right-first-image .thumb .inner-content
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+}
